@@ -1,0 +1,224 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+@font-face{
+ font-family: 'noto_sansregular';
+    src: url('../fonts/notosans-regular-webfont.eot');
+    src: url('../fonts/notosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/notosans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/notosans-regular-webfont.woff') format('woff'),
+         url('../fonts/notosans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/notosans-regular-webfont.svg#noto_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+      font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff'),
+         url('../fonts/roboto-regular-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a, p{
+	font-family: "robotoregular";
+	color: white;
+}
+
+h2, h3, h4{
+	font-family: "noto_sansregular";
+	color: white;
+}
+
+/*Header-barra*/
+
+.barra img{
+	width: 100px;
+	margin-top: 15px;
+
+
+}
+.barra{
+	background-color: rgb(29, 37, 94) ;
+}
+.logo{
+	display: flex;
+	justify-content: center;
+}
+
+.menu{
+	display: flex;
+	margin-left: 50px;
+	margin-right: 50px;	
+	justify-content: space-around;
+}
+
+
+nav > a{
+	margin: 20px;
+	text-transform: uppercase;
+}
+
+.menu > a:hover{
+	color: rgba(147, 228, 246, 1);
+}
+/*header-banner*/
+
+.Banner{
+	width: 100%;
+	height: 500px;
+	background-image: url(../img/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: conver;
+}
+
+
+.Banner > div{
+
+	width: 100%;
+	height: 100%;
+	background-color: rgba(209, 219, 189, 0.5);
+}
+
+.principal{
+	text-align: center;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	height: 100%;
+}
+.principal p{
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.principal h2{
+	font-size: 50px;
+	margin-bottom:25px ;
+}
+
+.principal a{
+	font-size: 20px;
+}
+
+.principal a:hover{
+	color: rgba(147, 228, 246, 1);
+}
+
+/*Secciones*/
+
+.compra{
+	width: 200px;
+}
+
+
+.accesodirecto{
+	background-color:rgba(16, 44, 46, 1) ;
+	width: 100%;
+	box-sizing: border-box;
+	padding-top: 20px ;
+	padding-right: 15px ;
+	padding-left: 15px ;
+	display: flex;
+	justify-content: space-between;
+}
+
+#pregunta{
+	background-color:rgba(16, 44, 46, 1) ;
+	padding-top: 15px;
+	text-align: center;
+	font-size: 20px;
+	text-transform: capitalize;
+	
+}
+
+.Item{
+	margin: 15px;
+	background-color: rgb(43, 117, 122);
+	transition: box-shadow 0.5s, color 0.5s, background-color 0.5s ease;
+}
+
+
+.subtitulo{
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.Item:hover{
+	box-shadow: 3px 2px 1px rgb(171, 136, 19);
+	color: white;
+}
+
+/*Sobre nosotros*/
+
+
+.nosotros{
+	background-color: rgba(21, 27, 69, 1.0);
+	padding: 15px;
+	display: flex;
+	flex-direction: row ;
+}
+
+.foto-equipo img{
+	width: 500px;
+	margin-right: 100px;
+	
+
+}
+
+.conocenos{
+	margin-top: 70px;
+	width: 550px;
+}
+.conocenos > p{
+	text-transform: capitalize;
+}
+
+.conocenos > a:hover{
+	color: rgba(147, 228, 246, 1);
+
+}
+
+
+hr{
+	width: 150px;
+	margin-top: 15px ;
+	margin-bottom: 15px ;
+}
+
+/*pie de pagina*/
+
+
+footer{
+	padding: 15px;
+	background-color:rgba(137, 181, 184, 1)
+}
+
+.top-footer{
+	height: 20px;
+}
+
+.center-footer{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	margin: 5px;
+	background-color: rgba(194, 222, 224, 0.4);
+}
+
+.bottom-footer{
+	text-align: center;
+	padding: 0;
+	margin-top: 20px;
+}
+
+	
